@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Music_Player.Pages.AppPages.Search">
+    <ContentPage.Content>
+        <Grid RowDefinitions="auto,*,*,*,*">
+            <SearchBar Grid.Row="0"
+                       x:Name="SearchBar" 
+                       TextColor="Black"
+                       BackgroundColor="White"
+                       Placeholder="Search ..."
+                       TextChanged="SearchBar_OnTextChanged"
+            />
+            <ContentView Grid.Row="4" x:Name="AlbumContent"/>
+            <ContentView Grid.Row="2" x:Name="ArtistContent"/>
+            <ContentView Grid.Row="3" x:Name="GenreContent"/>
+            <ContentView Grid.Row="1" x:Name="SongContent"/>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Music_Player.Pages.ViewPages.ViewFolders">
+    <!--<Grid RowDefinitions="auto,*,*,auto" Padding="0" >-->
+    <ScrollView>
+        <FlexLayout Direction="Column">
+        
+        <Button Grid.Row="0" Text="previous folder" Clicked="PreviousFolder_OnClicked"/>
+        
+        <CollectionView x:Name="FoldersLayout" Grid.Row="1">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <Frame BackgroundColor="White" x:Name="ItemFrame">
+                        <Grid Padding="10">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto"/>
+                            </Grid.RowDefinitions>
+                            <Grid.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="FolderTapped" CommandParameter="{Binding .}" />
+                            </Grid.GestureRecognizers>
+                            <Label Grid.Row="0" Text="{Binding Name}" TextColor="Black"/>
+                            <Button Grid.Row="0" Text="OptionMenu" Clicked="Folder_OnClicked" CommandParameter="{Binding .}" HorizontalOptions="End"/>
+                        </Grid>
+                    </Frame>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+        
+        <CollectionView x:Name="FilesLayout" Grid.Row="2">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <Frame BackgroundColor="Wheat" x:Name="ItemFrame">
+                        <Grid Padding="10">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto"/>
+                            </Grid.RowDefinitions>
+                            <Grid.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="SongTapped" CommandParameter="{Binding .}" />
+                            </Grid.GestureRecognizers>
+                            <Label Grid.Row="0" Text="{Binding Title}" TextColor="Black"/>
+                            <Button Grid.Row="0" Text="OptionMenu" Clicked="Song_OnClicked" CommandParameter="{Binding .}" HorizontalOptions="End"/>
+                        </Grid>
+                    </Frame>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+        
+        <Button Grid.Row="3" Text="Play" Clicked="Play_OnClicked"/>
+        </FlexLayout>
+    </ScrollView>
+    <!--</Grid>-->
+</ContentPage>

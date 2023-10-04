@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<ContentView xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Music_Player.Pages.Views.SongsPlayView">
+
+    <Grid RowDefinitions="*,*,*,*" Padding="0" >
+        
+        <CollectionView x:Name="PreviousLayout" Grid.Row="0">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <Frame BackgroundColor="Red" x:Name="ItemFrame">
+                        <Grid Padding="10">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto"/>
+                            </Grid.RowDefinitions>
+                            <Grid.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="PreviousSongTapped" CommandParameter="{Binding .}" />
+                            </Grid.GestureRecognizers>
+                            <Label Grid.Row="0" Text="{Binding Title}" TextColor="Black"/>
+                            <Button Grid.Row="0" Text="OptionMenu" Clicked="PreviousOnSong_OnClicked" CommandParameter="{Binding .}" HorizontalOptions="End"/>
+                        </Grid>
+                    </Frame>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+        
+        <CollectionView x:Name="CurrentLayout" Grid.Row="1">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <Frame BackgroundColor="Green" x:Name="ItemFrame">
+                        <Grid Padding="10">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto"/>
+                            </Grid.RowDefinitions>
+                            <Grid.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="CurrentSongTapped" CommandParameter="{Binding .}" />
+                            </Grid.GestureRecognizers>
+                            <Label Grid.Row="0" Text="{Binding Title}" TextColor="Black"/>
+                            <Button Grid.Row="0" Text="OptionMenu" Clicked="CurrentSong_OnClicked" CommandParameter="{Binding .}" HorizontalOptions="End"/>
+                        </Grid>
+                    </Frame>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+        
+        <CollectionView x:Name="QueueLayout" Grid.Row="2">
+
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <Frame BackgroundColor="Wheat" x:Name="ItemFrame">
+                        <Grid Padding="10">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto"/>
+                            </Grid.RowDefinitions>
+                            <Grid.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="QueueSongTapped" CommandParameter="{Binding .}" />
+                            </Grid.GestureRecognizers>
+                            <Label Grid.Row="0" Text="{Binding Title}" TextColor="Black"/>
+                            <Button Grid.Row="0" Text="OptionMenu" Clicked="QueueSong_OnClicked" CommandParameter="{Binding .}" HorizontalOptions="End"/>
+                        </Grid>
+                    </Frame>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+        
+        <CollectionView x:Name="NextLayout" Grid.Row="3">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <Frame BackgroundColor="Blue" x:Name="ItemFrame">
+                        <Grid Padding="10">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto"/>
+                            </Grid.RowDefinitions>
+                            <Grid.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="NextOnSongTapped" CommandParameter="{Binding .}" />
+                            </Grid.GestureRecognizers>
+                            <Label Grid.Row="0" Text="{Binding Title}" TextColor="Black"/>
+                            <Button Grid.Row="0" Text="OptionMenu" Clicked="NextOnSong_OnClicked" CommandParameter="{Binding .}" HorizontalOptions="End"/>
+                        </Grid>
+                    </Frame>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+        
+    </Grid>
+</ContentView>

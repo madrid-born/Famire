@@ -1,0 +1,179 @@
+is_global = true
+build_property.TargetFramework = net7.0-windows10.0.19041.0
+build_property.TargetPlatformMinVersion = 10.0.17763.0
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 9A19103F-16F7-4668-BE54-9A1E7A4F7556
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Music_Player
+build_property.ProjectDir = D:\project\coding  shit\projects\c#\MAUI\GitVersion\
+
+[D:/project/coding  shit/projects/c\#/MAUI/GitVersion/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Music_Player.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[D:/project/coding  shit/projects/c\#/MAUI/GitVersion/Pages/AppPages/Home.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Music_Player.Pages.AppPages.Home.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\AppPages\Home.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\AppPages\Home.xaml
+
+[D:/project/coding  shit/projects/c\#/MAUI/GitVersion/Pages/AppPages/Search.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Music_Player.Pages.AppPages.Search.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\AppPages\Search.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\AppPages\Search.xaml
+
+[D:/project/coding  shit/projects/c\#/MAUI/GitVersion/Pages/AppPages/Setting.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Music_Player.Pages.AppPages.Setting.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\AppPages\Setting.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\AppPages\Setting.xaml
+
+[D:/project/coding  shit/projects/c\#/MAUI/GitVersion/Pages/PopUps/NewPlayList.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Music_Player.Pages.PopUps.NewPlayList.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\PopUps\NewPlayList.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\PopUps\NewPlayList.xaml
+
+[D:/project/coding  shit/projects/c\#/MAUI/GitVersion/Pages/PopUps/OptionMenu.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Music_Player.Pages.PopUps.OptionMenu.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\PopUps\OptionMenu.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\PopUps\OptionMenu.xaml
+
+[D:/project/coding  shit/projects/c\#/MAUI/GitVersion/Pages/PopUps/PlayListPicker.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Music_Player.Pages.PopUps.PlayListPicker.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\PopUps\PlayListPicker.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\PopUps\PlayListPicker.xaml
+
+[D:/project/coding  shit/projects/c\#/MAUI/GitVersion/Pages/SingleContentPages/AlbumPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Music_Player.Pages.SingleContentPages.AlbumPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\SingleContentPages\AlbumPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\SingleContentPages\AlbumPage.xaml
+
+[D:/project/coding  shit/projects/c\#/MAUI/GitVersion/Pages/SingleContentPages/ArtistPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Music_Player.Pages.SingleContentPages.ArtistPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\SingleContentPages\ArtistPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\SingleContentPages\ArtistPage.xaml
+
+[D:/project/coding  shit/projects/c\#/MAUI/GitVersion/Pages/SingleContentPages/GenrePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Music_Player.Pages.SingleContentPages.GenrePage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\SingleContentPages\GenrePage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\SingleContentPages\GenrePage.xaml
+
+[D:/project/coding  shit/projects/c\#/MAUI/GitVersion/Pages/SingleContentPages/PlayListPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Music_Player.Pages.SingleContentPages.PlayListPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\SingleContentPages\PlayListPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\SingleContentPages\PlayListPage.xaml
+
+[D:/project/coding  shit/projects/c\#/MAUI/GitVersion/Pages/SingleContentPages/PlayPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Music_Player.Pages.SingleContentPages.PlayPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\SingleContentPages\PlayPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\SingleContentPages\PlayPage.xaml
+
+[D:/project/coding  shit/projects/c\#/MAUI/GitVersion/Pages/ViewPages/ViewAlbums.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Music_Player.Pages.ViewPages.ViewAlbums.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\ViewPages\ViewAlbums.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\ViewPages\ViewAlbums.xaml
+
+[D:/project/coding  shit/projects/c\#/MAUI/GitVersion/Pages/ViewPages/ViewArtists.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Music_Player.Pages.ViewPages.ViewArtists.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\ViewPages\ViewArtists.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\ViewPages\ViewArtists.xaml
+
+[D:/project/coding  shit/projects/c\#/MAUI/GitVersion/Pages/ViewPages/ViewFolders.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Music_Player.Pages.ViewPages.ViewFolders.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\ViewPages\ViewFolders.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\ViewPages\ViewFolders.xaml
+
+[D:/project/coding  shit/projects/c\#/MAUI/GitVersion/Pages/ViewPages/ViewGenres.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Music_Player.Pages.ViewPages.ViewGenres.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\ViewPages\ViewGenres.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\ViewPages\ViewGenres.xaml
+
+[D:/project/coding  shit/projects/c\#/MAUI/GitVersion/Pages/ViewPages/ViewPlayLists.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Music_Player.Pages.ViewPages.ViewPlayLists.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\ViewPages\ViewPlayLists.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\ViewPages\ViewPlayLists.xaml
+
+[D:/project/coding  shit/projects/c\#/MAUI/GitVersion/Pages/ViewPages/ViewPlays.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Music_Player.Pages.ViewPages.ViewPlays.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\ViewPages\ViewPlays.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\ViewPages\ViewPlays.xaml
+
+[D:/project/coding  shit/projects/c\#/MAUI/GitVersion/Pages/ViewPages/ViewSongs.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Music_Player.Pages.ViewPages.ViewSongs.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\ViewPages\ViewSongs.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\ViewPages\ViewSongs.xaml
+
+[D:/project/coding  shit/projects/c\#/MAUI/GitVersion/Pages/Views/AlbumsView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Music_Player.Pages.Views.AlbumsView.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\Views\AlbumsView.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\Views\AlbumsView.xaml
+
+[D:/project/coding  shit/projects/c\#/MAUI/GitVersion/Pages/Views/ArtistView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Music_Player.Pages.Views.ArtistView.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\Views\ArtistView.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\Views\ArtistView.xaml
+
+[D:/project/coding  shit/projects/c\#/MAUI/GitVersion/Pages/Views/GenreView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Music_Player.Pages.Views.GenreView.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\Views\GenreView.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\Views\GenreView.xaml
+
+[D:/project/coding  shit/projects/c\#/MAUI/GitVersion/Pages/Views/SongsListView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Music_Player.Pages.Views.SongsListView.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\Views\SongsListView.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\Views\SongsListView.xaml
+
+[D:/project/coding  shit/projects/c\#/MAUI/GitVersion/Pages/Views/SongsPlayView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Music_Player.Pages.Views.SongsPlayView.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\Views\SongsPlayView.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\Views\SongsPlayView.xaml
+
+[D:/project/coding  shit/projects/c\#/MAUI/GitVersion/Pages/Views/SongsView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Music_Player.Pages.Views.SongsView.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\Views\SongsView.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\Views\SongsView.xaml
+
+[D:/project/coding  shit/projects/c\#/MAUI/GitVersion/Pages/Views/ThemeView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Music_Player.Pages.Views.ThemeView.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\Views\ThemeView.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\Views\ThemeView.xaml
+
+[D:/project/coding  shit/projects/c\#/MAUI/GitVersion/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Music_Player.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[D:/project/coding  shit/projects/c\#/MAUI/GitVersion/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Music_Player.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml

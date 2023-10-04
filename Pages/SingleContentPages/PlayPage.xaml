@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Music_Player.Pages.ViewPages.PlayPage">
+    <ContentPage.Content>
+        <Grid RowDefinitions="*,auto,auto,auto, auto" Padding="10">
+            <Image Grid.Row="0" Source="negar.jpg" Aspect="AspectFit"/>
+            
+            <Grid  Grid.Row="1" RowDefinitions="auto,auto, auto" HorizontalOptions="Center">
+                <Label Grid.Row="0" x:Name="Title"
+                       FontSize="Medium"
+                       TextColor="White"
+                       MaxLines="1" />
+                <Grid Grid.Row="1" ColumnDefinitions="*,*" ColumnSpacing="10">
+                    <Label Grid.Column="0" x:Name="Artist"
+                           
+                           FontSize="Small"
+                           TextColor="White" />
+                    <Label Grid.Column="1" x:Name="Album"
+                           FontSize="Small"
+                           TextColor="White" />
+                </Grid>
+                <Grid Grid.Row="2" ColumnDefinitions="*,*" ColumnSpacing="10">
+                    <Label Grid.Column="0"
+                           x:Name="PassedTime"
+                           FontSize="Small"
+                           TextColor="White"
+                           />
+                    
+                    <Label Grid.Column="1"
+                           x:Name="TotalTime"
+                           FontSize="Small"
+                           TextColor="White"
+                           />
+                </Grid>
+                
+            </Grid>
+            
+            <Slider Grid.Row="2"
+                x:Name="ProgressSlider"
+                Maximum="1"
+                Value="0"
+                Margin="20,0"
+                ThumbColor="White"
+                ThumbImageSource="search.svg"/>
+            
+            <StackLayout Grid.Row="3">
+                <Grid ColumnDefinitions="*,*,*,*,*" HeightRequest="50" HorizontalOptions="Center"
+                      VerticalOptions="Center" ColumnSpacing="20">
+                    <ImageButton Grid.Column="0" x:Name="ShuffleButton"
+                                 Source="shuffle.svg"
+                                 Aspect="AspectFit"
+                                 Clicked="ShuffleTapped">
+                    </ImageButton>
+                    <ImageButton Grid.Column="1" x:Name="BackButton"
+                                 Source="previous.svg"
+                                 Aspect="AspectFit"
+                                 Clicked="BackTapped">
+                    </ImageButton>
+                    <ImageButton Grid.Column="2" x:Name="PlayPauseButton"
+                                 Source="pause.svg"
+                                 Aspect="AspectFit"
+                                 Clicked="PlayPauseTapped">
+                    </ImageButton>
+                    <ImageButton Grid.Column="3" x:Name="NextButton"
+                                 Source="next.svg"
+                                 Aspect="AspectFit"
+                                 Clicked="NextTapped">
+                    </ImageButton>
+                    <ImageButton Grid.Column="4" x:Name="RepeatButton"
+                                 Source="repeat.svg"
+                                 Aspect="AspectFit"
+                                 Clicked="RepeatTapped">
+                    </ImageButton>
+                </Grid>
+            </StackLayout>
+            
+            <Button Grid.Row="4" Text="List" Clicked="list_OnClicked"/>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>
